@@ -9,6 +9,8 @@ os.environ['PROJECT_PATH'] = os.getcwd()
 os.environ['PROJECT_MODULE_NAME'] = 'pavi'
 os.environ['PROJECT_MODULE_PATH'] = os.path.join(os.getcwd(), os.getenv('PROJECT_MODULE_NAME'))
 
+from pavi.blueprints.endpoints import blueprint as endpoints
 from pavi.app import app
 
+app.register_blueprint(endpoints)
 app.run()
