@@ -2,28 +2,13 @@ import json
 import os
 
 from pavi.config import Config  # import .env
-from pavi.lib import MongoLib
 from pavi.util import save_uploaded_video
 from pavi.util.service_utils import send_to_service
 
 from flask import Flask, request, abort, Blueprint
-from flask_cors import CORS
 from bson import json_util
 
 blueprint = Blueprint('api', __name__, url_prefix='/basic_api')
-
-# preprocessing
-UPLOAD_FOLDER = Config.get('upload_folder')
-if not os.path.exists(UPLOAD_FOLDER):
-    os.makedirs(UPLOAD_FOLDER)
-
-app = Flask(__name__)
-app.config['MAX_CONTENT_LENGTH'] = Config.get('upload_size_limit')
-CORS(app)
-
-db_client = MongoLib()
-collection = Config.get('db_collection')
-
 
 @blueprint.route('/videos/<video_id>', methods=['GET'])
 def get_result(video_id):
@@ -45,7 +30,7 @@ def process_video():
     except RuntimeError as e:
         abort(400, description=str(e))
 
-    # video_id = upload_to_db(results)
+    # video_id = upload_to_db(results) //descomentar antes de lanzar
 
     # cleanup video files
     if os.path.exists(video_path):
