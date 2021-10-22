@@ -1,10 +1,11 @@
 from flask import request
-from flask_restplus import Namespace, Resource, fields
+from flask_restplus import Namespace, Resource, fields, reqparse, Api
+from werkzeug.datastructures import FileStorage
 from http import HTTPStatus
 
-namespace = Namespace('process_video', 'Video processing endpoint')
+namespace = Namespace('video', 'Video processing endpoint')
 
-video_model = namespace.model('Video', {
+video_model = namespace.model('videoid', {
     'id': fields.String(
         readonly=True,
         description='Video identifier'
@@ -29,7 +30,7 @@ class entities(Resource):
     @namespace.response(500, 'Internal Server error')
     @namespace.marshal_list_with(video_list_model)
     def get(self):
-        '''List with all the entities'''
+        '''Regresa los videos procesados'''
         #entity_list = [entity_example]
 
         return {
@@ -42,9 +43,12 @@ class entities(Resource):
     @namespace.expect(video_model)
     @namespace.marshal_with(video_model, code=HTTPStatus.CREATED)
     def post(self):
-        '''Create a new entity'''
+        '''Añade y procesa un video en la plataforma'''
+
+        uploaded_file = args['file']  # This is FileStorage instance
+        url = process_video(uploaded_file)
 
         if request.json['name'] == 'Entity name':
             namespace.abort(400, 'Entity with the given name already exists')
 
-        return entity_example, 201
+        return {'url:', url}, 201
