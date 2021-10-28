@@ -2,9 +2,14 @@ from flask import request
 from flask_restplus import Namespace, Resource, fields, reqparse, Api
 from werkzeug.datastructures import FileStorage
 from http import HTTPStatus
+from pavi.util.service_utils import send_to_service
 
-namespace = Namespace('video', 'Video processing endpoint')
+namespace = Namespace('videos', 'Video processing endpoint')
 
+upload_parser = namespace.parser()
+upload_parser.add_argument('algorithm', location='form', type='string', required=True, default='yolov4')
+upload_parser.add_argument('video', location='files', type=FileStorage, required=True)
+                           
 video_model = namespace.model('videoid', {
     'id': fields.String(
         readonly=True,
@@ -40,15 +45,13 @@ class entities(Resource):
 
     @namespace.response(400, 'Entity with the given name already exists')
     @namespace.response(500, 'Internal Server error')
-    @namespace.expect(video_model)
-    @namespace.marshal_with(video_model, code=HTTPStatus.CREATED)
+    @namespace.expect(upload_parser)
     def post(self):
         '''Añade y procesa un video en la plataforma'''
-
-        uploaded_file = args['file']  # This is FileStorage instance
-        url = process_video(uploaded_file)
-
-        if request.json['name'] == 'Entity name':
-            namespace.abort(400, 'Entity with the given name already exists')
-
-        return {'url:', url}, 201
+        args = upload_parser.parse_args()
+        video_path = args['video']
+        algo = args['algorithm']
+        print(video_path)
+        print(algo)
+        url = send_to_service(algo, video_path)
+        return {'url': url}, 201
