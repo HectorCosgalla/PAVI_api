@@ -1,3 +1,5 @@
+import json
+
 from flask import request
 from flask_restplus import Namespace, Resource, fields, reqparse, Api
 from werkzeug.datastructures import FileStorage
@@ -6,41 +8,31 @@ from http import HTTPStatus
 from pavi.config import Config
 from pavi.util.process_video_utils import save_uploaded_video
 from pavi.util.service_utils import send_to_service
+from pavi.app import db_client
+
+from bson import json_util
 
 namespace = Namespace('videos', 'Video processing endpoint')
 
 upload_parser = namespace.parser()
-upload_parser.add_argument('algorithm', location='form', required=True, default='yolov4')
 upload_parser.add_argument('video', location='files', type=FileStorage, required=True)
-                           
-video_model = namespace.model('videoid', {
-    'id': fields.String(
-        readonly=True,
-        description='Video identifier'
-    )
-})
+upload_parser.add_argument('algorithm', location='form', required=True, default='yolov4')
 
-video_list_model = namespace.model('VideoList', {
-    'video_list': fields.Nested(
-        video_model,
-        description='Lista de videos',
-        as_list=True
-    ),
-    'total_records': fields.Integer(
-        description='Numero total de videos',
-    ),
-})
+video_get = namespace.parser()
+video_get.add_argument('video_id', required=True)
 
 @namespace.route('')
 class entities(Resource):
     '''Get entities list and create new entities'''
 
     @namespace.response(500, 'Internal Server error')
-    @namespace.marshal_list_with(video_list_model)
+    @namespace.response(200, 'Get data sucessfully')
+    @namespace.expect(video_get)
+    #@namespace.marshal_list_with(video_list_model)
     def get(self):
         '''Regresa los videos procesados'''
-        #entity_list = [entity_example]
-        result = db_client.get_by_field(collection, 'filename', video_id)
+        args = video_get.parse_args()
+        result = db_client.get_by_field(Config.get('db_collection'), 'filename', args['video_id'])
 
         return json.loads(json_util.dumps(result))
 
