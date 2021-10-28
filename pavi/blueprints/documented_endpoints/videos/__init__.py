@@ -40,11 +40,9 @@ class entities(Resource):
     def get(self):
         '''Regresa los videos procesados'''
         #entity_list = [entity_example]
+        result = db_client.get_by_field(collection, 'filename', video_id)
 
-        return {
-            'entities': video_list_model,
-            'total_records': len(video_list_model)
-        }
+        return json.loads(json_util.dumps(result))
 
     @namespace.response(400, 'Entity with the given name already exists')
     @namespace.response(500, 'Internal Server error')

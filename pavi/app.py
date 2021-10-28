@@ -27,9 +27,9 @@ collection = Config.get('db_collection')
 def get_result(video_id):
     result = db_client.get_by_field(collection, 'filename', video_id)
 
-    if results_filter := request.args.get('filter'):
+    """if results_filter := request.args.get('filter'):
         if results_filter == 'person':
-            result = person_filter(result)
+            result = person_filter(result)"""
 
     return json.loads(json_util.dumps(result))
 
