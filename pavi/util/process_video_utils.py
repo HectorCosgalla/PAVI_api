@@ -5,11 +5,7 @@ import uuid
 SUPPORTED_VIDEO_FORMATS = ['mp4']
 
 
-def save_uploaded_video(request_files, upload_folder):
-    if 'video' not in request_files:
-        raise RuntimeError('Video key not found in request.')
-
-    video = request_files['video']
+def save_uploaded_video(video, upload_folder):
 
     if video.filename == '':
         raise RuntimeError('Video file not sent.')
