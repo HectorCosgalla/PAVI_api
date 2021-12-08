@@ -2,7 +2,7 @@ import json
 
 from flask import request
 from flask_restplus import Namespace, Resource, fields, reqparse, Api
-from werkzeug.datastructures import FileStorage
+from werkzeug.datastructures import FileStorage, ImmutableMultiDict
 from http import HTTPStatus
 
 from pavi.config import Config
@@ -43,7 +43,8 @@ class entities(Resource):
     def post(self):
         '''Añade y procesa un video en la plataforma'''
         args = upload_parser.parse_args()
-        video_path = save_uploaded_video(args['video'], Config.get('upload_folder'))
+        sendVideo = ImmutableMultiDict([('video', args['video'])])
+        video_path = save_uploaded_video(sendVideo, Config.get('upload_folder'))
         algo = args['algorithm']
         url = send_to_service(algo, video_path)
         return {'url': url}, 201

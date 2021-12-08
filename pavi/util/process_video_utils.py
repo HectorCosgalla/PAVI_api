@@ -1,14 +1,16 @@
 import os
 import subprocess
 import uuid
+from werkzeug.datastructures import FileStorage
 
 SUPPORTED_VIDEO_FORMATS = ['mp4']
 
 
-def save_uploaded_video(video, upload_folder):
-
-    if video.filename == '':
-        raise RuntimeError('Video file not sent.')
+def save_uploaded_video(request_files, upload_folder):
+    if 'video' not in request_files:
+        raise RuntimeError('Video key not found in request.')
+    
+    video = request_files['video']
 
     if video and supported_file(video.filename):
         _, ext = os.path.splitext(video.filename)
