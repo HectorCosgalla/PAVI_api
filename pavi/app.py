@@ -43,7 +43,7 @@ def process_video():
     except RuntimeError as e:
         abort(400, description=str(e))
 
-    # video_id = upload_to_db(results)
+    video_id = upload_to_db(results)
 
     # cleanup video files
     if os.path.exists(video_path):
