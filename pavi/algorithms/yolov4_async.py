@@ -36,6 +36,7 @@ from argparse import ArgumentParser, SUPPRESS
 from math import exp as exp
 from time import perf_counter
 from enum import Enum
+from pavi.util.json_file_utils import writeObjectJsonFile
 
 import cv2
 import numpy as np
@@ -151,6 +152,7 @@ def scale_bbox(x, y, height, width, class_id, confidence, im_h, im_w, is_proport
     ymax = int(ymin + height * im_h)
     # Method item() used here to convert NumPy types to native types for compatibility with functions, which don't
     # support Numpy types (e.g., cv2.rectangle doesn't support int64 in color parameter)
+    writeObjectJsonFile(dict(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, class_id = class_id.item(), confidence = confidence.item()))
     return dict(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, class_id=class_id.item(), confidence=confidence.item())
 
 
@@ -248,7 +250,7 @@ def get_objects(output, net, new_frame_height_width, source_height_width, prob_t
         layer_params = YoloParams(params, out_blob.shape[2])
         objects += parse_yolo_region(out_blob, new_frame_height_width, source_height_width, layer_params,
                                      prob_threshold, is_proportional)
-
+                            
     return objects
 
 
