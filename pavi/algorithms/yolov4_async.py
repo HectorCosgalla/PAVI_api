@@ -36,7 +36,7 @@ from argparse import ArgumentParser, SUPPRESS
 from math import exp as exp
 from time import perf_counter
 from enum import Enum
-from pavi.util.json_file_utils import writeObjectJsonFile
+from pavi.util.json_file_utils import JsonFileObject
 
 import cv2
 import numpy as np
@@ -152,7 +152,6 @@ def scale_bbox(x, y, height, width, class_id, confidence, im_h, im_w, is_proport
     ymax = int(ymin + height * im_h)
     # Method item() used here to convert NumPy types to native types for compatibility with functions, which don't
     # support Numpy types (e.g., cv2.rectangle doesn't support int64 in color parameter)
-    writeObjectJsonFile(dict(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, class_id = class_id.item(), confidence = confidence.item()))
     return dict(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, class_id=class_id.item(), confidence=confidence.item())
 
 
@@ -392,6 +391,8 @@ def main(input_video_path, model_xml, **kwargs):
     print("To close the application, press 'CTRL+C' here or switch to the output window and press ESC key")
     print("To switch between min_latency/user_specified modes, press TAB key in the output window")
 
+    objectjson = JsonFileObject()
+
     while (cap.isOpened()
            or completed_request_results
            or len(empty_requests) < len(exec_nets[mode.current].requests)) \
@@ -434,7 +435,7 @@ def main(input_video_path, model_xml, **kwargs):
                 cv2.putText(frame,
                             "#" + det_label + ' ' + str(round(obj['confidence'] * 100, 1)) + ' %',
                             (obj['xmin'], obj['ymin'] - 7), cv2.FONT_HERSHEY_COMPLEX, 0.6, color, 1)
-
+                objectjson.addObject(obj)
             # Draw performance stats over frame
             if mode_info[mode.current].frames_count != 0:
                 fps_message = "FPS: {:.1f}".format(mode_info[mode.current].frames_count /
@@ -515,6 +516,7 @@ def main(input_video_path, model_xml, **kwargs):
         log.info("Latency: {:.1f} ms".format((mode_info[mode_value].latency_sum /
                                               mode_info[mode_value].frames_count) * 1e3))
 
+    objectjson.writeObjectJsonFile()
     for exec_net in exec_nets.values():
         await_requests_completion(exec_net.requests)
 

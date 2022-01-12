@@ -5,6 +5,8 @@
 data.json
 pavi/static/
 /static
+file.json
+jsonexample.json
 
 # user defined and sensitive data
 .env
