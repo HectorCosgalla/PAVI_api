@@ -412,6 +412,7 @@ def main(input_video_path, model_xml, **kwargs):
                 log.info(" Class ID | Confidence | XMIN | YMIN | XMAX | YMAX | COLOR ")
 
             origin_im_size = frame.shape[:-1]
+
             for obj in objects:
                 # Validation bbox of detected object
                 obj['xmax'] = min(obj['xmax'], origin_im_size[1])
@@ -435,7 +436,10 @@ def main(input_video_path, model_xml, **kwargs):
                 cv2.putText(frame,
                             "#" + det_label + ' ' + str(round(obj['confidence'] * 100, 1)) + ' %',
                             (obj['xmin'], obj['ymin'] - 7), cv2.FONT_HERSHEY_COMPLEX, 0.6, color, 1)
-                objectjson.addObject(obj)
+            
+            
+            objectjson.addObject(objects, mode_info[mode.current].frames_count)
+            
             # Draw performance stats over frame
             if mode_info[mode.current].frames_count != 0:
                 fps_message = "FPS: {:.1f}".format(mode_info[mode.current].frames_count /

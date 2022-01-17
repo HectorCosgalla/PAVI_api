@@ -13,18 +13,22 @@ def writeObjectJsonFile(objects):
 class JsonFileObject:
     
     def __init__(self):
+        
         algorithm = dict(
             algorithm='YOLOv4',
-            detections=[]
+            detections = []
         )
         self.fps = 30
         self.datetime = datetime.now().__str__()
         self.processing = algorithm
 
-    def addObject(self, objects):
-        self.processing.get("detections").append(objects)
+    def addObject(self, objects, frame):
+        if objects:
+            self.processing.get("detections").append(dict(frame = frame, objects = objects))
+
+    
 
     def writeObjectJsonFile(self):
         with open("file.json", "w") as jsonFile:
             json.dump(self.__dict__, jsonFile, indent = 4)
-        
+    

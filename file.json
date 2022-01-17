@@ -1,0 +1,2783 @@
+{
+    "fps": 30,
+    "datetime": "2022-01-16 00:16:33.163623",
+    "processing": {
+        "algorithm": "YOLOv4",
+        "detections": [
+            {
+                "frame": 16,
+                "objects": [
+                    {
+                        "xmin": 230,
+                        "xmax": 768,
+                        "ymin": 303,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 3.1110475063323975
+                    }
+                ],
+                "seconds": 2.2520739
+            },
+            {
+                "frame": 17,
+                "objects": [
+                    {
+                        "xmin": 262,
+                        "xmax": 768,
+                        "ymin": 237,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 9.69213581085205
+                    }
+                ],
+                "seconds": 2.3184572
+            },
+            {
+                "frame": 18,
+                "objects": [
+                    {
+                        "xmin": 281,
+                        "xmax": 745,
+                        "ymin": 191,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 13.130012512207031
+                    }
+                ],
+                "seconds": 2.3625899
+            },
+            {
+                "frame": 19,
+                "objects": [
+                    {
+                        "xmin": 318,
+                        "xmax": 727,
+                        "ymin": 143,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 11.10705852508545
+                    }
+                ],
+                "seconds": 2.4049383
+            },
+            {
+                "frame": 20,
+                "objects": [
+                    {
+                        "xmin": 332,
+                        "xmax": 721,
+                        "ymin": 91,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 5.770771026611328
+                    }
+                ],
+                "seconds": 2.4526993
+            },
+            {
+                "frame": 21,
+                "objects": [
+                    {
+                        "xmin": 326,
+                        "xmax": 732,
+                        "ymin": 84,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 10.788661003112793
+                    }
+                ],
+                "seconds": 2.5370368
+            },
+            {
+                "frame": 22,
+                "objects": [
+                    {
+                        "xmin": 345,
+                        "xmax": 733,
+                        "ymin": 42,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 10.638861656188965
+                    }
+                ],
+                "seconds": 2.6290218
+            },
+            {
+                "frame": 23,
+                "objects": [
+                    {
+                        "xmin": 333,
+                        "xmax": 742,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 13.793158531188965
+                    }
+                ],
+                "seconds": 2.6664311
+            },
+            {
+                "frame": 24,
+                "objects": [
+                    {
+                        "xmin": 337,
+                        "xmax": 747,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 13.587265968322754
+                    }
+                ],
+                "seconds": 2.7497831
+            },
+            {
+                "frame": 25,
+                "objects": [
+                    {
+                        "xmin": 330,
+                        "xmax": 756,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 27.453746795654297
+                    }
+                ],
+                "seconds": 2.7918695
+            },
+            {
+                "frame": 26,
+                "objects": [
+                    {
+                        "xmin": 324,
+                        "xmax": 767,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 40.68313980102539
+                    }
+                ],
+                "seconds": 2.8798888
+            },
+            {
+                "frame": 27,
+                "objects": [
+                    {
+                        "xmin": 336,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 21.429380416870117
+                    }
+                ],
+                "seconds": 2.9668582
+            },
+            {
+                "frame": 28,
+                "objects": [
+                    {
+                        "xmin": 376,
+                        "xmax": 766,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 24.33965301513672
+                    }
+                ],
+                "seconds": 3.0124822
+            },
+            {
+                "frame": 29,
+                "objects": [
+                    {
+                        "xmin": 382,
+                        "xmax": 760,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 18.0637264251709
+                    }
+                ],
+                "seconds": 3.097734
+            },
+            {
+                "frame": 30,
+                "objects": [
+                    {
+                        "xmin": 431,
+                        "xmax": 747,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 12.681325912475586
+                    }
+                ],
+                "seconds": 3.1362146
+            },
+            {
+                "frame": 31,
+                "objects": [
+                    {
+                        "xmin": 432,
+                        "xmax": 764,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 2.774073839187622
+                    }
+                ],
+                "seconds": 3.2120443
+            },
+            {
+                "frame": 32,
+                "objects": [
+                    {
+                        "xmin": 321,
+                        "xmax": 664,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 2.3965566158294678
+                    }
+                ],
+                "seconds": 3.2847056
+            },
+            {
+                "frame": 33,
+                "objects": [
+                    {
+                        "xmin": 323,
+                        "xmax": 686,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 22.602506637573242
+                    }
+                ],
+                "seconds": 3.3263808
+            },
+            {
+                "frame": 34,
+                "objects": [
+                    {
+                        "xmin": 334,
+                        "xmax": 711,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 25.112598419189453
+                    }
+                ],
+                "seconds": 3.4187201
+            },
+            {
+                "frame": 35,
+                "objects": [
+                    {
+                        "xmin": 353,
+                        "xmax": 716,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 30.06948471069336
+                    }
+                ],
+                "seconds": 3.4709043
+            },
+            {
+                "frame": 36,
+                "objects": [
+                    {
+                        "xmin": 339,
+                        "xmax": 729,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 30.085073471069336
+                    }
+                ],
+                "seconds": 3.5156042
+            },
+            {
+                "frame": 37,
+                "objects": [
+                    {
+                        "xmin": 337,
+                        "xmax": 731,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 29.176437377929688
+                    }
+                ],
+                "seconds": 3.5920748
+            },
+            {
+                "frame": 38,
+                "objects": [
+                    {
+                        "xmin": 353,
+                        "xmax": 742,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 12.469008445739746
+                    }
+                ],
+                "seconds": 3.673512
+            },
+            {
+                "frame": 39,
+                "objects": [
+                    {
+                        "xmin": 367,
+                        "xmax": 755,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 29.290157318115234
+                    }
+                ],
+                "seconds": 3.7163043
+            },
+            {
+                "frame": 40,
+                "objects": [
+                    {
+                        "xmin": 401,
+                        "xmax": 748,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 19.337581634521484
+                    }
+                ],
+                "seconds": 3.8094449
+            },
+            {
+                "frame": 41,
+                "objects": [
+                    {
+                        "xmin": 419,
+                        "xmax": 751,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 25.531124114990234
+                    }
+                ],
+                "seconds": 3.8894393
+            },
+            {
+                "frame": 42,
+                "objects": [
+                    {
+                        "xmin": 449,
+                        "xmax": 757,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 27.73006248474121
+                    }
+                ],
+                "seconds": 3.9683341
+            },
+            {
+                "frame": 43,
+                "objects": [
+                    {
+                        "xmin": 422,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 19.774280548095703
+                    }
+                ],
+                "seconds": 4.0134107
+            },
+            {
+                "frame": 44,
+                "objects": [
+                    {
+                        "xmin": 377,
+                        "xmax": 695,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 15.278026580810547
+                    }
+                ],
+                "seconds": 4.0610986
+            },
+            {
+                "frame": 45,
+                "objects": [
+                    {
+                        "xmin": 378,
+                        "xmax": 724,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 29.146318435668945
+                    }
+                ],
+                "seconds": 4.1318293
+            },
+            {
+                "frame": 46,
+                "objects": [
+                    {
+                        "xmin": 398,
+                        "xmax": 747,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 29.56559944152832
+                    }
+                ],
+                "seconds": 4.2166049
+            },
+            {
+                "frame": 47,
+                "objects": [
+                    {
+                        "xmin": 434,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 19.85531234741211
+                    }
+                ],
+                "seconds": 4.302564
+            },
+            {
+                "frame": 48,
+                "objects": [
+                    {
+                        "xmin": 428,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 12.69583511352539
+                    }
+                ],
+                "seconds": 4.3414188
+            },
+            {
+                "frame": 49,
+                "objects": [
+                    {
+                        "xmin": 422,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 19.56249237060547
+                    }
+                ],
+                "seconds": 4.4274838
+            },
+            {
+                "frame": 50,
+                "objects": [
+                    {
+                        "xmin": 452,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 18.450536727905273
+                    }
+                ],
+                "seconds": 4.5082908
+            },
+            {
+                "frame": 51,
+                "objects": [
+                    {
+                        "xmin": 393,
+                        "xmax": 719,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 18.235742568969727
+                    }
+                ],
+                "seconds": 4.560229
+            },
+            {
+                "frame": 52,
+                "objects": [
+                    {
+                        "xmin": 420,
+                        "xmax": 758,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 19.534284591674805
+                    }
+                ],
+                "seconds": 4.628074
+            },
+            {
+                "frame": 53,
+                "objects": [
+                    {
+                        "xmin": 432,
+                        "xmax": 764,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 25.231338500976562
+                    }
+                ],
+                "seconds": 4.6682096
+            },
+            {
+                "frame": 54,
+                "objects": [
+                    {
+                        "xmin": 428,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 22.202892303466797
+                    }
+                ],
+                "seconds": 4.7613515
+            },
+            {
+                "frame": 55,
+                "objects": [
+                    {
+                        "xmin": 426,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 29.69072723388672
+                    }
+                ],
+                "seconds": 4.838788
+            },
+            {
+                "frame": 56,
+                "objects": [
+                    {
+                        "xmin": 454,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 26.056856155395508
+                    }
+                ],
+                "seconds": 4.9303036
+            },
+            {
+                "frame": 57,
+                "objects": [
+                    {
+                        "xmin": 415,
+                        "xmax": 747,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 12.139934539794922
+                    }
+                ],
+                "seconds": 5.023548
+            },
+            {
+                "frame": 58,
+                "objects": [
+                    {
+                        "xmin": 451,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 27.116626739501953
+                    }
+                ],
+                "seconds": 5.1232936
+            },
+            {
+                "frame": 59,
+                "objects": [
+                    {
+                        "xmin": 472,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 23.61806869506836
+                    }
+                ],
+                "seconds": 5.2089236
+            },
+            {
+                "frame": 60,
+                "objects": [
+                    {
+                        "xmin": 468,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 27.602060317993164
+                    }
+                ],
+                "seconds": 5.2456679
+            },
+            {
+                "frame": 61,
+                "objects": [
+                    {
+                        "xmin": 473,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 36.547767639160156
+                    }
+                ],
+                "seconds": 5.3196066
+            },
+            {
+                "frame": 62,
+                "objects": [
+                    {
+                        "xmin": 500,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 30.365846633911133
+                    }
+                ],
+                "seconds": 5.4198874
+            },
+            {
+                "frame": 63,
+                "objects": [
+                    {
+                        "xmin": 564,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 4.170030117034912
+                    }
+                ],
+                "seconds": 5.4691348
+            },
+            {
+                "frame": 64,
+                "objects": [
+                    {
+                        "xmin": 481,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 22.33139991760254
+                    }
+                ],
+                "seconds": 5.5161113
+            },
+            {
+                "frame": 65,
+                "objects": [
+                    {
+                        "xmin": 497,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 24.41594123840332
+                    }
+                ],
+                "seconds": 5.5613409
+            },
+            {
+                "frame": 66,
+                "objects": [
+                    {
+                        "xmin": 483,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 20.817312240600586
+                    }
+                ],
+                "seconds": 5.6172241
+            },
+            {
+                "frame": 67,
+                "objects": [
+                    {
+                        "xmin": 473,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 16.717056274414062
+                    }
+                ],
+                "seconds": 5.674643
+            },
+            {
+                "frame": 68,
+                "objects": [
+                    {
+                        "xmin": 505,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 12.957232475280762
+                    }
+                ],
+                "seconds": 5.7191142
+            },
+            {
+                "frame": 69,
+                "objects": [
+                    {
+                        "xmin": 555,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 8.638005256652832
+                    }
+                ],
+                "seconds": 5.7658257
+            },
+            {
+                "frame": 70,
+                "objects": [
+                    {
+                        "xmin": 499,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 29.326194763183594
+                    }
+                ],
+                "seconds": 5.8136808
+            },
+            {
+                "frame": 71,
+                "objects": [
+                    {
+                        "xmin": 512,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 24.417795181274414
+                    }
+                ],
+                "seconds": 5.8714591
+            },
+            {
+                "frame": 72,
+                "objects": [
+                    {
+                        "xmin": 514,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 34.180686950683594
+                    }
+                ],
+                "seconds": 5.9483871
+            },
+            {
+                "frame": 73,
+                "objects": [
+                    {
+                        "xmin": 511,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 33.757110595703125
+                    }
+                ],
+                "seconds": 6.0390812
+            },
+            {
+                "frame": 74,
+                "objects": [
+                    {
+                        "xmin": 533,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 24.322072982788086
+                    }
+                ],
+                "seconds": 6.1196367
+            },
+            {
+                "frame": 75,
+                "objects": [
+                    {
+                        "xmin": 565,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 10.879129409790039
+                    }
+                ],
+                "seconds": 6.2027743
+            },
+            {
+                "frame": 76,
+                "objects": [
+                    {
+                        "xmin": 589,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 7.200093746185303
+                    }
+                ],
+                "seconds": 6.2621994
+            },
+            {
+                "frame": 77,
+                "objects": [
+                    {
+                        "xmin": 592,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 4.885910987854004
+                    }
+                ],
+                "seconds": 6.3406998
+            },
+            {
+                "frame": 80,
+                "objects": [
+                    {
+                        "xmin": 488,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 0,
+                        "confidence": 1.9486913681030273
+                    }
+                ],
+                "seconds": 6.5644278
+            },
+            {
+                "frame": 196,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 343,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 1.3367910385131836
+                    }
+                ],
+                "seconds": 14.3323491
+            },
+            {
+                "frame": 197,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 338,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 2.1806676387786865
+                    }
+                ],
+                "seconds": 14.3765836
+            },
+            {
+                "frame": 198,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 337,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 4.359737396240234
+                    }
+                ],
+                "seconds": 14.4485685
+            },
+            {
+                "frame": 199,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 337,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 0.6367877125740051
+                    }
+                ],
+                "seconds": 14.5395071
+            },
+            {
+                "frame": 200,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 342,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 0.6811893582344055
+                    }
+                ],
+                "seconds": 14.5802851
+            },
+            {
+                "frame": 202,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 519,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 3.2475180625915527
+                    }
+                ],
+                "seconds": 14.7212515
+            },
+            {
+                "frame": 205,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 447,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 2.4908909797668457
+                    }
+                ],
+                "seconds": 14.8964903
+            },
+            {
+                "frame": 206,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 436,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 1.8226898908615112
+                    }
+                ],
+                "seconds": 14.9675367
+            },
+            {
+                "frame": 208,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 358,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 2,
+                        "confidence": 5.729132175445557
+                    }
+                ],
+                "seconds": 15.0873538
+            },
+            {
+                "frame": 209,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 322,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 3.5434420108795166
+                    }
+                ],
+                "seconds": 15.1599679
+            },
+            {
+                "frame": 210,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 299,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 2,
+                        "confidence": 1.0324952602386475
+                    }
+                ],
+                "seconds": 15.2511077
+            },
+            {
+                "frame": 213,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 656,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 2,
+                        "confidence": 4.269461631774902
+                    }
+                ],
+                "seconds": 15.4679569
+            },
+            {
+                "frame": 214,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 430,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 2,
+                        "confidence": 2.411520004272461
+                    }
+                ],
+                "seconds": 15.539911
+            },
+            {
+                "frame": 215,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 401,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 2,
+                        "confidence": 5.912804126739502
+                    }
+                ],
+                "seconds": 15.6278621
+            },
+            {
+                "frame": 216,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 642,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 2,
+                        "confidence": 8.589460372924805
+                    }
+                ],
+                "seconds": 15.6980718
+            },
+            {
+                "frame": 217,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 313,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 2,
+                        "confidence": 17.705223083496094
+                    }
+                ],
+                "seconds": 15.7895228
+            },
+            {
+                "frame": 218,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 302,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 2,
+                        "confidence": 21.653697967529297
+                    }
+                ],
+                "seconds": 15.8733688
+            },
+            {
+                "frame": 219,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 263,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 2,
+                        "confidence": 22.90892791748047
+                    }
+                ],
+                "seconds": 15.9531477
+            },
+            {
+                "frame": 220,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 202,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 2,
+                        "confidence": 15.212414741516113
+                    }
+                ],
+                "seconds": 15.9994574
+            },
+            {
+                "frame": 221,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 169,
+                        "ymin": 0,
+                        "ymax": 428,
+                        "class_id": 2,
+                        "confidence": 11.300483703613281
+                    }
+                ],
+                "seconds": 16.0661302
+            },
+            {
+                "frame": 222,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 143,
+                        "ymin": 0,
+                        "ymax": 418,
+                        "class_id": 2,
+                        "confidence": 9.714925765991211
+                    }
+                ],
+                "seconds": 16.1081935
+            },
+            {
+                "frame": 223,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 435,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 2,
+                        "confidence": 10.540109634399414
+                    }
+                ],
+                "seconds": 16.1958797
+            },
+            {
+                "frame": 224,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 378,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 2,
+                        "confidence": 13.779412269592285
+                    }
+                ],
+                "seconds": 16.2768457
+            },
+            {
+                "frame": 225,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 350,
+                        "ymin": 0,
+                        "ymax": 411,
+                        "class_id": 2,
+                        "confidence": 7.140690326690674
+                    }
+                ],
+                "seconds": 16.3794104
+            },
+            {
+                "frame": 226,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 300,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 2,
+                        "confidence": 2.2197883129119873
+                    }
+                ],
+                "seconds": 16.4185672
+            },
+            {
+                "frame": 227,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 260,
+                        "ymin": 0,
+                        "ymax": 428,
+                        "class_id": 2,
+                        "confidence": 2.2182364463806152
+                    }
+                ],
+                "seconds": 16.4872512
+            },
+            {
+                "frame": 228,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 208,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 2,
+                        "confidence": 1.5680451393127441
+                    }
+                ],
+                "seconds": 16.5277328
+            },
+            {
+                "frame": 331,
+                "objects": [
+                    {
+                        "xmin": 353,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 259,
+                        "class_id": 1,
+                        "confidence": 3.9020707607269287
+                    }
+                ],
+                "seconds": 23.5468627
+            },
+            {
+                "frame": 332,
+                "objects": [
+                    {
+                        "xmin": 350,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 253,
+                        "class_id": 1,
+                        "confidence": 3.032623291015625
+                    }
+                ],
+                "seconds": 23.5909033
+            },
+            {
+                "frame": 333,
+                "objects": [
+                    {
+                        "xmin": 377,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 254,
+                        "class_id": 1,
+                        "confidence": 3.675910472869873
+                    }
+                ],
+                "seconds": 23.6613631
+            },
+            {
+                "frame": 336,
+                "objects": [
+                    {
+                        "xmin": 372,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 272,
+                        "class_id": 1,
+                        "confidence": 7.133626937866211
+                    }
+                ],
+                "seconds": 23.870504
+            },
+            {
+                "frame": 337,
+                "objects": [
+                    {
+                        "xmin": 402,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 276,
+                        "class_id": 1,
+                        "confidence": 4.231871604919434
+                    }
+                ],
+                "seconds": 23.9191446
+            },
+            {
+                "frame": 340,
+                "objects": [
+                    {
+                        "xmin": 403,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 293,
+                        "class_id": 1,
+                        "confidence": 2.3320748805999756
+                    }
+                ],
+                "seconds": 24.107976
+            },
+            {
+                "frame": 341,
+                "objects": [
+                    {
+                        "xmin": 432,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 309,
+                        "class_id": 1,
+                        "confidence": 3.3643805980682373
+                    }
+                ],
+                "seconds": 24.1744737
+            },
+            {
+                "frame": 342,
+                "objects": [
+                    {
+                        "xmin": 571,
+                        "xmax": 759,
+                        "ymin": 0,
+                        "ymax": 212,
+                        "class_id": 0,
+                        "confidence": 3.0395054817199707
+                    }
+                ],
+                "seconds": 24.2175487
+            },
+            {
+                "frame": 344,
+                "objects": [
+                    {
+                        "xmin": 414,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 237,
+                        "class_id": 1,
+                        "confidence": 3.7142510414123535
+                    },
+                    {
+                        "xmin": 633,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 217,
+                        "class_id": 0,
+                        "confidence": 3.6076409816741943
+                    }
+                ],
+                "seconds": 24.3843913
+            },
+            {
+                "frame": 345,
+                "objects": [
+                    {
+                        "xmin": 450,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 221,
+                        "class_id": 1,
+                        "confidence": 1.769136905670166
+                    }
+                ],
+                "seconds": 24.4649999
+            },
+            {
+                "frame": 488,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 182,
+                        "ymin": 0,
+                        "ymax": 393,
+                        "class_id": 0,
+                        "confidence": 5.694771766662598
+                    }
+                ],
+                "seconds": 33.8944281
+            },
+            {
+                "frame": 489,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 212,
+                        "ymin": 0,
+                        "ymax": 384,
+                        "class_id": 0,
+                        "confidence": 15.20083236694336
+                    }
+                ],
+                "seconds": 33.9344142
+            },
+            {
+                "frame": 490,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 128,
+                        "ymin": 0,
+                        "ymax": 385,
+                        "class_id": 0,
+                        "confidence": 2.984646797180176
+                    }
+                ],
+                "seconds": 34.0033259
+            },
+            {
+                "frame": 491,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 101,
+                        "ymin": 0,
+                        "ymax": 389,
+                        "class_id": 0,
+                        "confidence": 8.810018539428711
+                    }
+                ],
+                "seconds": 34.0459879
+            },
+            {
+                "frame": 492,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 111,
+                        "ymin": 0,
+                        "ymax": 380,
+                        "class_id": 0,
+                        "confidence": 16.56729507446289
+                    }
+                ],
+                "seconds": 34.1115143
+            },
+            {
+                "frame": 493,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 128,
+                        "ymin": 0,
+                        "ymax": 390,
+                        "class_id": 0,
+                        "confidence": 17.703693389892578
+                    }
+                ],
+                "seconds": 34.1542565
+            },
+            {
+                "frame": 494,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 171,
+                        "ymin": 0,
+                        "ymax": 377,
+                        "class_id": 0,
+                        "confidence": 23.275474548339844
+                    }
+                ],
+                "seconds": 34.218685
+            },
+            {
+                "frame": 495,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 245,
+                        "ymin": 0,
+                        "ymax": 362,
+                        "class_id": 0,
+                        "confidence": 21.398414611816406
+                    }
+                ],
+                "seconds": 34.2820762
+            },
+            {
+                "frame": 496,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 159,
+                        "ymin": 0,
+                        "ymax": 380,
+                        "class_id": 0,
+                        "confidence": 9.829716682434082
+                    }
+                ],
+                "seconds": 34.3397605
+            },
+            {
+                "frame": 497,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 164,
+                        "ymin": 0,
+                        "ymax": 366,
+                        "class_id": 0,
+                        "confidence": 6.70873498916626
+                    }
+                ],
+                "seconds": 34.4253623
+            },
+            {
+                "frame": 498,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 151,
+                        "ymin": 0,
+                        "ymax": 383,
+                        "class_id": 0,
+                        "confidence": 3.714583396911621
+                    }
+                ],
+                "seconds": 34.4669744
+            },
+            {
+                "frame": 499,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 162,
+                        "ymin": 0,
+                        "ymax": 382,
+                        "class_id": 0,
+                        "confidence": 2.610926866531372
+                    }
+                ],
+                "seconds": 34.5332573
+            },
+            {
+                "frame": 500,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 178,
+                        "ymin": 0,
+                        "ymax": 375,
+                        "class_id": 0,
+                        "confidence": 5.428122043609619
+                    }
+                ],
+                "seconds": 34.5918968
+            },
+            {
+                "frame": 501,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 250,
+                        "ymin": 0,
+                        "ymax": 356,
+                        "class_id": 0,
+                        "confidence": 12.280677795410156
+                    }
+                ],
+                "seconds": 34.6629677
+            },
+            {
+                "frame": 502,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 203,
+                        "ymin": 0,
+                        "ymax": 355,
+                        "class_id": 0,
+                        "confidence": 3.995122194290161
+                    }
+                ],
+                "seconds": 34.7029003
+            },
+            {
+                "frame": 503,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 213,
+                        "ymin": 0,
+                        "ymax": 362,
+                        "class_id": 0,
+                        "confidence": 8.158967018127441
+                    }
+                ],
+                "seconds": 34.7629364
+            },
+            {
+                "frame": 504,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 204,
+                        "ymin": 0,
+                        "ymax": 365,
+                        "class_id": 0,
+                        "confidence": 10.878924369812012
+                    }
+                ],
+                "seconds": 34.8387534
+            },
+            {
+                "frame": 505,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 196,
+                        "ymin": 0,
+                        "ymax": 379,
+                        "class_id": 0,
+                        "confidence": 8.500732421875
+                    }
+                ],
+                "seconds": 34.9281163
+            },
+            {
+                "frame": 506,
+                "objects": [
+                    {
+                        "xmin": 14,
+                        "xmax": 211,
+                        "ymin": 0,
+                        "ymax": 386,
+                        "class_id": 0,
+                        "confidence": 6.56620979309082
+                    }
+                ],
+                "seconds": 34.9683238
+            },
+            {
+                "frame": 507,
+                "objects": [
+                    {
+                        "xmin": 36,
+                        "xmax": 269,
+                        "ymin": 0,
+                        "ymax": 383,
+                        "class_id": 0,
+                        "confidence": 15.11327075958252
+                    }
+                ],
+                "seconds": 35.0361097
+            },
+            {
+                "frame": 508,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 228,
+                        "ymin": 0,
+                        "ymax": 355,
+                        "class_id": 0,
+                        "confidence": 16.39264488220215
+                    }
+                ],
+                "seconds": 35.0757183
+            },
+            {
+                "frame": 509,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 254,
+                        "ymin": 0,
+                        "ymax": 345,
+                        "class_id": 0,
+                        "confidence": 21.863643646240234
+                    }
+                ],
+                "seconds": 35.1225071
+            },
+            {
+                "frame": 510,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 252,
+                        "ymin": 0,
+                        "ymax": 347,
+                        "class_id": 0,
+                        "confidence": 12.390362739562988
+                    }
+                ],
+                "seconds": 35.2007817
+            },
+            {
+                "frame": 511,
+                "objects": [
+                    {
+                        "xmin": 19,
+                        "xmax": 230,
+                        "ymin": 0,
+                        "ymax": 362,
+                        "class_id": 0,
+                        "confidence": 10.480264663696289
+                    }
+                ],
+                "seconds": 35.2738886
+            },
+            {
+                "frame": 512,
+                "objects": [
+                    {
+                        "xmin": 38,
+                        "xmax": 258,
+                        "ymin": 0,
+                        "ymax": 365,
+                        "class_id": 0,
+                        "confidence": 5.594432830810547
+                    }
+                ],
+                "seconds": 35.3570937
+            },
+            {
+                "frame": 513,
+                "objects": [
+                    {
+                        "xmin": 54,
+                        "xmax": 319,
+                        "ymin": 0,
+                        "ymax": 399,
+                        "class_id": 0,
+                        "confidence": 3.791175365447998
+                    }
+                ],
+                "seconds": 35.4271706
+            },
+            {
+                "frame": 514,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 268,
+                        "ymin": 0,
+                        "ymax": 399,
+                        "class_id": 0,
+                        "confidence": 16.193599700927734
+                    }
+                ],
+                "seconds": 35.4670046
+            },
+            {
+                "frame": 515,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 306,
+                        "ymin": 0,
+                        "ymax": 392,
+                        "class_id": 0,
+                        "confidence": 14.380966186523438
+                    }
+                ],
+                "seconds": 35.5395116
+            },
+            {
+                "frame": 516,
+                "objects": [
+                    {
+                        "xmin": 1,
+                        "xmax": 312,
+                        "ymin": 0,
+                        "ymax": 392,
+                        "class_id": 0,
+                        "confidence": 16.253196716308594
+                    }
+                ],
+                "seconds": 35.5920211
+            },
+            {
+                "frame": 517,
+                "objects": [
+                    {
+                        "xmin": 40,
+                        "xmax": 311,
+                        "ymin": 0,
+                        "ymax": 374,
+                        "class_id": 0,
+                        "confidence": 21.531110763549805
+                    }
+                ],
+                "seconds": 35.6732521
+            },
+            {
+                "frame": 518,
+                "objects": [
+                    {
+                        "xmin": 90,
+                        "xmax": 309,
+                        "ymin": 0,
+                        "ymax": 363,
+                        "class_id": 0,
+                        "confidence": 7.407529830932617
+                    }
+                ],
+                "seconds": 35.7195034
+            },
+            {
+                "frame": 519,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 224,
+                        "ymin": 0,
+                        "ymax": 379,
+                        "class_id": 0,
+                        "confidence": 2.417430877685547
+                    }
+                ],
+                "seconds": 35.7998587
+            },
+            {
+                "frame": 520,
+                "objects": [
+                    {
+                        "xmin": 16,
+                        "xmax": 258,
+                        "ymin": 0,
+                        "ymax": 371,
+                        "class_id": 0,
+                        "confidence": 18.73274040222168
+                    }
+                ],
+                "seconds": 35.8585019
+            },
+            {
+                "frame": 521,
+                "objects": [
+                    {
+                        "xmin": 22,
+                        "xmax": 310,
+                        "ymin": 0,
+                        "ymax": 364,
+                        "class_id": 0,
+                        "confidence": 11.031352996826172
+                    }
+                ],
+                "seconds": 35.9371484
+            },
+            {
+                "frame": 522,
+                "objects": [
+                    {
+                        "xmin": 8,
+                        "xmax": 358,
+                        "ymin": 0,
+                        "ymax": 362,
+                        "class_id": 0,
+                        "confidence": 13.605902671813965
+                    }
+                ],
+                "seconds": 35.9812357
+            },
+            {
+                "frame": 523,
+                "objects": [
+                    {
+                        "xmin": 28,
+                        "xmax": 335,
+                        "ymin": 0,
+                        "ymax": 365,
+                        "class_id": 0,
+                        "confidence": 3.0839200019836426
+                    }
+                ],
+                "seconds": 36.0603116
+            },
+            {
+                "frame": 526,
+                "objects": [
+                    {
+                        "xmin": 54,
+                        "xmax": 268,
+                        "ymin": 0,
+                        "ymax": 359,
+                        "class_id": 0,
+                        "confidence": 9.7635498046875
+                    }
+                ],
+                "seconds": 36.2592787
+            },
+            {
+                "frame": 527,
+                "objects": [
+                    {
+                        "xmin": 61,
+                        "xmax": 311,
+                        "ymin": 0,
+                        "ymax": 380,
+                        "class_id": 0,
+                        "confidence": 11.718851089477539
+                    }
+                ],
+                "seconds": 36.3545128
+            },
+            {
+                "frame": 528,
+                "objects": [
+                    {
+                        "xmin": 68,
+                        "xmax": 339,
+                        "ymin": 0,
+                        "ymax": 373,
+                        "class_id": 0,
+                        "confidence": 14.247480392456055
+                    }
+                ],
+                "seconds": 36.4455795
+            },
+            {
+                "frame": 529,
+                "objects": [
+                    {
+                        "xmin": 75,
+                        "xmax": 340,
+                        "ymin": 0,
+                        "ymax": 369,
+                        "class_id": 0,
+                        "confidence": 21.01114845275879
+                    },
+                    {
+                        "xmin": 0,
+                        "xmax": 496,
+                        "ymin": 247,
+                        "ymax": 432,
+                        "class_id": 8,
+                        "confidence": 1.0254712104797363
+                    }
+                ],
+                "seconds": 36.5271643
+            },
+            {
+                "frame": 530,
+                "objects": [
+                    {
+                        "xmin": 95,
+                        "xmax": 348,
+                        "ymin": 0,
+                        "ymax": 338,
+                        "class_id": 0,
+                        "confidence": 11.463296890258789
+                    },
+                    {
+                        "xmin": 0,
+                        "xmax": 488,
+                        "ymin": 204,
+                        "ymax": 432,
+                        "class_id": 8,
+                        "confidence": 1.1815532445907593
+                    }
+                ],
+                "seconds": 36.6024157
+            },
+            {
+                "frame": 531,
+                "objects": [
+                    {
+                        "xmin": 103,
+                        "xmax": 380,
+                        "ymin": 0,
+                        "ymax": 347,
+                        "class_id": 0,
+                        "confidence": 20.00770378112793
+                    },
+                    {
+                        "xmin": 0,
+                        "xmax": 719,
+                        "ymin": 168,
+                        "ymax": 432,
+                        "class_id": 8,
+                        "confidence": 2.2613704204559326
+                    }
+                ],
+                "seconds": 36.6747339
+            },
+            {
+                "frame": 532,
+                "objects": [
+                    {
+                        "xmin": 130,
+                        "xmax": 398,
+                        "ymin": 0,
+                        "ymax": 307,
+                        "class_id": 0,
+                        "confidence": 13.090035438537598
+                    }
+                ],
+                "seconds": 36.7170194
+            },
+            {
+                "frame": 533,
+                "objects": [
+                    {
+                        "xmin": 61,
+                        "xmax": 312,
+                        "ymin": 0,
+                        "ymax": 319,
+                        "class_id": 0,
+                        "confidence": 7.512210369110107
+                    }
+                ],
+                "seconds": 36.7874478
+            },
+            {
+                "frame": 534,
+                "objects": [
+                    {
+                        "xmin": 63,
+                        "xmax": 337,
+                        "ymin": 0,
+                        "ymax": 303,
+                        "class_id": 0,
+                        "confidence": 9.076942443847656
+                    }
+                ],
+                "seconds": 36.8971358
+            },
+            {
+                "frame": 535,
+                "objects": [
+                    {
+                        "xmin": 69,
+                        "xmax": 347,
+                        "ymin": 0,
+                        "ymax": 298,
+                        "class_id": 0,
+                        "confidence": 8.382282257080078
+                    }
+                ],
+                "seconds": 36.9974314
+            },
+            {
+                "frame": 536,
+                "objects": [
+                    {
+                        "xmin": 107,
+                        "xmax": 351,
+                        "ymin": 0,
+                        "ymax": 337,
+                        "class_id": 0,
+                        "confidence": 11.448396682739258
+                    }
+                ],
+                "seconds": 37.0627128
+            },
+            {
+                "frame": 537,
+                "objects": [
+                    {
+                        "xmin": 139,
+                        "xmax": 352,
+                        "ymin": 0,
+                        "ymax": 305,
+                        "class_id": 0,
+                        "confidence": 12.408666610717773
+                    },
+                    {
+                        "xmin": 0,
+                        "xmax": 583,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 2,
+                        "confidence": 1.2265336513519287
+                    }
+                ],
+                "seconds": 37.1198655
+            },
+            {
+                "frame": 538,
+                "objects": [
+                    {
+                        "xmin": 140,
+                        "xmax": 372,
+                        "ymin": 0,
+                        "ymax": 298,
+                        "class_id": 0,
+                        "confidence": 6.186295509338379
+                    }
+                ],
+                "seconds": 37.1872913
+            },
+            {
+                "frame": 545,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 479,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 2.4107987880706787
+                    }
+                ],
+                "seconds": 37.5925291
+            },
+            {
+                "frame": 546,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 483,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 4.077704429626465
+                    }
+                ],
+                "seconds": 37.6709869
+            },
+            {
+                "frame": 547,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 476,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 11.62216854095459
+                    }
+                ],
+                "seconds": 37.7337979
+            },
+            {
+                "frame": 548,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 483,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 10.707647323608398
+                    }
+                ],
+                "seconds": 37.8151937
+            },
+            {
+                "frame": 549,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 501,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 4.8632001876831055
+                    }
+                ],
+                "seconds": 37.8571218
+            },
+            {
+                "frame": 550,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 483,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 11.779987335205078
+                    }
+                ],
+                "seconds": 37.9017339
+            },
+            {
+                "frame": 551,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 484,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 7.7276811599731445
+                    }
+                ],
+                "seconds": 37.9745605
+            },
+            {
+                "frame": 552,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 492,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 2.8266067504882812
+                    }
+                ],
+                "seconds": 38.0322131
+            },
+            {
+                "frame": 553,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 474,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 8.743475914001465
+                    }
+                ],
+                "seconds": 38.1139318
+            },
+            {
+                "frame": 554,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 482,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 7.1600422859191895
+                    }
+                ],
+                "seconds": 38.1536126
+            },
+            {
+                "frame": 555,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 504,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 3.1991889476776123
+                    }
+                ],
+                "seconds": 38.2319837
+            },
+            {
+                "frame": 557,
+                "objects": [
+                    {
+                        "xmin": 5,
+                        "xmax": 456,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 3.008209705352783
+                    }
+                ],
+                "seconds": 38.3594196
+            },
+            {
+                "frame": 560,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 416,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 1.3714758157730103
+                    }
+                ],
+                "seconds": 38.5795824
+            },
+            {
+                "frame": 563,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 626,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 2.65596342086792
+                    },
+                    {
+                        "xmin": 349,
+                        "xmax": 757,
+                        "ymin": 0,
+                        "ymax": 367,
+                        "class_id": 1,
+                        "confidence": 1.2877792119979858
+                    }
+                ],
+                "seconds": 38.816124
+            },
+            {
+                "frame": 564,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 413,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 6.446442127227783
+                    },
+                    {
+                        "xmin": 327,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 279,
+                        "class_id": 1,
+                        "confidence": 2.6806552410125732
+                    }
+                ],
+                "seconds": 38.8565131
+            },
+            {
+                "frame": 565,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 403,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 17.991390228271484
+                    }
+                ],
+                "seconds": 38.9388681
+            },
+            {
+                "frame": 566,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 366,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 22.440027236938477
+                    }
+                ],
+                "seconds": 38.9960766
+            },
+            {
+                "frame": 567,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 317,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 6.347143173217773
+                    },
+                    {
+                        "xmin": 5,
+                        "xmax": 589,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 5.051002025604248
+                    }
+                ],
+                "seconds": 39.0442766
+            },
+            {
+                "frame": 568,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 542,
+                        "ymin": 0,
+                        "ymax": 427,
+                        "class_id": 67,
+                        "confidence": 1.1345109939575195
+                    }
+                ],
+                "seconds": 39.0936202
+            },
+            {
+                "frame": 569,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 658,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 11.219216346740723
+                    }
+                ],
+                "seconds": 39.160523
+            },
+            {
+                "frame": 570,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 642,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 5.322899341583252
+                    }
+                ],
+                "seconds": 39.2001183
+            },
+            {
+                "frame": 571,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 448,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 67,
+                        "confidence": 3.7385854721069336
+                    }
+                ],
+                "seconds": 39.2473968
+            },
+            {
+                "frame": 572,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 684,
+                        "ymin": 0,
+                        "ymax": 428,
+                        "class_id": 2,
+                        "confidence": 0.7101112008094788
+                    }
+                ],
+                "seconds": 39.3157297
+            },
+            {
+                "frame": 573,
+                "objects": [
+                    {
+                        "xmin": 338,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 273,
+                        "class_id": 1,
+                        "confidence": 8.222830772399902
+                    },
+                    {
+                        "xmin": 0,
+                        "xmax": 634,
+                        "ymin": 0,
+                        "ymax": 407,
+                        "class_id": 2,
+                        "confidence": 2.8589065074920654
+                    }
+                ],
+                "seconds": 39.3724075
+            },
+            {
+                "frame": 574,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 748,
+                        "ymin": 0,
+                        "ymax": 389,
+                        "class_id": 2,
+                        "confidence": 3.5407626628875732
+                    },
+                    {
+                        "xmin": 366,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 271,
+                        "class_id": 1,
+                        "confidence": 3.0602760314941406
+                    }
+                ],
+                "seconds": 39.4218641
+            },
+            {
+                "frame": 575,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 522,
+                        "ymin": 0,
+                        "ymax": 384,
+                        "class_id": 2,
+                        "confidence": 7.010149955749512
+                    }
+                ],
+                "seconds": 39.4687881
+            },
+            {
+                "frame": 576,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 468,
+                        "ymin": 0,
+                        "ymax": 374,
+                        "class_id": 2,
+                        "confidence": 10.6393404006958
+                    }
+                ],
+                "seconds": 39.54853
+            },
+            {
+                "frame": 577,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 437,
+                        "ymin": 0,
+                        "ymax": 373,
+                        "class_id": 2,
+                        "confidence": 17.246028900146484
+                    },
+                    {
+                        "xmin": 370,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 283,
+                        "class_id": 1,
+                        "confidence": 3.577388048171997
+                    }
+                ],
+                "seconds": 39.5927736
+            },
+            {
+                "frame": 578,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 391,
+                        "ymin": 0,
+                        "ymax": 332,
+                        "class_id": 2,
+                        "confidence": 16.8048152923584
+                    },
+                    {
+                        "xmin": 379,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 284,
+                        "class_id": 1,
+                        "confidence": 8.64565658569336
+                    }
+                ],
+                "seconds": 39.6527576
+            },
+            {
+                "frame": 579,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 351,
+                        "ymin": 0,
+                        "ymax": 314,
+                        "class_id": 2,
+                        "confidence": 20.169326782226562
+                    }
+                ],
+                "seconds": 39.7338567
+            },
+            {
+                "frame": 580,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 309,
+                        "ymin": 0,
+                        "ymax": 309,
+                        "class_id": 2,
+                        "confidence": 18.987321853637695
+                    }
+                ],
+                "seconds": 39.781924
+            },
+            {
+                "frame": 581,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 513,
+                        "ymin": 0,
+                        "ymax": 325,
+                        "class_id": 2,
+                        "confidence": 9.488402366638184
+                    },
+                    {
+                        "xmin": 368,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 314,
+                        "class_id": 1,
+                        "confidence": 3.342938184738159
+                    }
+                ],
+                "seconds": 39.8250055
+            },
+            {
+                "frame": 582,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 249,
+                        "ymin": 0,
+                        "ymax": 294,
+                        "class_id": 2,
+                        "confidence": 13.537288665771484
+                    },
+                    {
+                        "xmin": 408,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 304,
+                        "class_id": 1,
+                        "confidence": 4.375667572021484
+                    }
+                ],
+                "seconds": 39.8725786
+            },
+            {
+                "frame": 583,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 171,
+                        "ymin": 0,
+                        "ymax": 301,
+                        "class_id": 2,
+                        "confidence": 10.422903060913086
+                    },
+                    {
+                        "xmin": 418,
+                        "xmax": 768,
+                        "ymin": 0,
+                        "ymax": 289,
+                        "class_id": 1,
+                        "confidence": 3.004028081893921
+                    }
+                ],
+                "seconds": 39.9196833
+            },
+            {
+                "frame": 584,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 404,
+                        "ymin": 0,
+                        "ymax": 302,
+                        "class_id": 2,
+                        "confidence": 4.346527576446533
+                    },
+                    {
+                        "xmin": 0,
+                        "xmax": 131,
+                        "ymin": 0,
+                        "ymax": 321,
+                        "class_id": 2,
+                        "confidence": 2.088817596435547
+                    }
+                ],
+                "seconds": 39.9664536
+            },
+            {
+                "frame": 585,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 331,
+                        "ymin": 0,
+                        "ymax": 303,
+                        "class_id": 2,
+                        "confidence": 6.221808910369873
+                    }
+                ],
+                "seconds": 40.0301621
+            },
+            {
+                "frame": 586,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 283,
+                        "ymin": 0,
+                        "ymax": 302,
+                        "class_id": 2,
+                        "confidence": 7.5530104637146
+                    }
+                ],
+                "seconds": 40.0757002
+            },
+            {
+                "frame": 587,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 320,
+                        "ymin": 0,
+                        "ymax": 302,
+                        "class_id": 2,
+                        "confidence": 4.1609625816345215
+                    }
+                ],
+                "seconds": 40.1229124
+            },
+            {
+                "frame": 588,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 290,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 2,
+                        "confidence": 7.2062177658081055
+                    }
+                ],
+                "seconds": 40.1692914
+            },
+            {
+                "frame": 589,
+                "objects": [
+                    {
+                        "xmin": 0,
+                        "xmax": 206,
+                        "ymin": 0,
+                        "ymax": 432,
+                        "class_id": 2,
+                        "confidence": 4.549423694610596
+                    }
+                ],
+                "seconds": 40.234341
+            }
+        ]
+    }
+}
