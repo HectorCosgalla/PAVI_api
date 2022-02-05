@@ -19,7 +19,8 @@ class Config:
         'project_module_path': os.getenv('PROJECT_MODULE_PATH'),
         'static_folder': os.path.join(os.getenv('PROJECT_PATH'), 'static'),
         'upload_folder': os.getenv('UPLOAD_FOLDER') or os.path.join(os.getenv('PROJECT_PATH'), 'static', 'videos'),
-        'upload_size_limit': os.getenv('UPLOAD_SIZE_LIMIT') or 100 * 1024 * 1024  # 100MB
+        'upload_size_limit': os.getenv('UPLOAD_SIZE_LIMIT') or 100 * 1024 * 1024,  # 100MB
+        'labels': 'pavi/config/coco.names'
     }
 
     @staticmethod

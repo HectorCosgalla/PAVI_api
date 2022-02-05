@@ -31,4 +31,4 @@ log.info('Downloading and converting model...')
 converted_path = download_and_convert_model(MODEL_NAME, DOWNLOAD_PATH, CONVERT_PATH)
 model_xml = os.path.join(converted_path, PRECISION, MODEL_NAME + '.xml')
 
-yolov4(args.input, model_xml)
+yolov4(args.input, model_xml, labels=Config.get('labels'))

@@ -437,13 +437,13 @@ def main(input_video_path, model_xml, **kwargs):
                             "#" + det_label + ' ' + str(round(obj['confidence'] * 100, 1)) + ' %',
                             (obj['xmin'], obj['ymin'] - 7), cv2.FONT_HERSHEY_COMPLEX, 0.6, color, 1)
             
-            
-            objectjson.addObject(objects, mode_info[mode.current].frames_count)
+            fps = cap.get(cv2.CAP_PROP_FPS)
+            objectjson.addObject(objects, mode_info[mode.current].frames_count, fps)
             
             # Draw performance stats over frame
             if mode_info[mode.current].frames_count != 0:
-                fps_message = "FPS: {:.1f}".format(mode_info[mode.current].frames_count /
-                                                   (perf_counter() - mode_info[mode.current].last_start_time))
+
+                fps_message = "FPS: {:.1f}".format(mode_info[mode.current].frames_count /(perf_counter() - mode_info[mode.current].last_start_time))
                 mode_info[mode.current].latency_sum += perf_counter() - start_time
                 latency_message = "Latency: {:.1f} ms".format((mode_info[mode.current].latency_sum /
                                                                mode_info[mode.current].frames_count) * 1e3)
@@ -469,7 +469,7 @@ def main(input_video_path, model_xml, **kwargs):
                     empty_requests.clear()
                     empty_requests.extend(exec_nets[mode.current].requests)
 
-                    mode_info[prev_mode].last_end_time = perf_counter()
+                    #mode_info[prev_mode].last_end_time = perf_counter()
                     mode_info[mode.current] = ModeInfo()
 
         elif empty_requests and cap.isOpened():
