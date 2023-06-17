@@ -4,6 +4,7 @@ python-dotenv==0.15.0
 Flask-Cors==3.0.10
 flask-restplus==0.13.0
 Werkzeug==0.16.1
+markupsafe==2.0.1
 
 # OpenVINO development package
 openvino-dev[tensorflow2]==2021.4.0
